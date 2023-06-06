@@ -27,7 +27,7 @@ def keydown_events(key):
         player.sprite.facing_right = False
 
 def keyup_events(key):
-    """when the user unpress a key from begin pressed"""
+    """when the user unpress a key from being pressed"""
     if key == pg.K_RIGHT:
         # when we release the right arrow key, our player stop moving
         # (stop the right running animation)
